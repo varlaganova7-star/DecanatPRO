@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DecanatPRO.BusinessLogic\DecanatPRO.BusinessLogic.csproj" />
+    <ProjectReference Include="..\DecanatPRO.Model\DecanatPRO.Model.csproj" />
+  </ItemGroup>
+
 </Project>
